@@ -44,7 +44,6 @@ const addStoredWishList = (id) => {
         storedList.push(id)
         const storedListStr = JSON.stringify(storedList);
         localStorage.setItem('wish-list', storedListStr)
-        toast('This Book Added to WishList')
     }
 }
 
